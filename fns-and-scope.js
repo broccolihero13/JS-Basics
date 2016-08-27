@@ -18,9 +18,8 @@ function isTyler(name){
 
 
   //Code Here
-var userName;
 function getName() {
-  userName = prompt('What is your name?');
+  var userName = prompt('What is your name?');
   return userName;
 }
 
@@ -33,7 +32,7 @@ function getName() {
 
   //Code Here
 function welcome() {
-  getName();
+  var userName = getName();
   alert("Welcome, " + userName);
 }
 
@@ -46,7 +45,7 @@ function welcome() {
 
   //Answer Here
 var answerToProblem4 = "Parameters are essentially variable placeholders that can be named anything. They are then passed into the function when the function is called. An argument is the value given to the parameter when the function is called."
-
+console.log(answerToProblem4);
 //////////////////PROBLEM 5////////////////////
 
 
@@ -57,7 +56,7 @@ var answerToProblem4 = "Parameters are essentially variable placeholders that ca
   //Answer Here
 
 var whatIsFalsy = [NaN, false, 0, "", undefined, null];
-
+console.log(answerToProblem4);
 //////////////////PROBLEM 6////////////////////
 
 
