@@ -56,7 +56,7 @@ console.log(answerToProblem4);
   //Answer Here
 
 var whatIsFalsy = [NaN, false, 0, "", undefined, null];
-console.log(answerToProblem4);
+console.log(whatIsFalsy);
 //////////////////PROBLEM 6////////////////////
 
 
@@ -72,7 +72,7 @@ function myName() {
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
-var newMyName = myName();
+var newMyName = myName;
 
 //Now alert the result of invoking newMyName
 
@@ -87,7 +87,7 @@ alert(newMyName);
   //Code Here
 function outerFn() {
   return function() {
-    return newMyName;
+    return newMyName();
   };
 }
 //Now save the result of invoking outerFn into a variable called innerFn.
